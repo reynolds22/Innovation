@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
 
 *{
     padding: 0;
@@ -13,9 +13,27 @@ body{
     font-family: Outfit;
     min-height: 100vh;
 }
-
-.logo{
+.con-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con{
+    width: 17%;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
     margin-top: 20px;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 .signin-con{
@@ -31,5 +49,121 @@ body{
 .signin-title{
     font-size: 28px;
     font-weight: 400;
+}
+
+.input-lable{
+    margin-top: 20px;
+}
+
+.signin-con input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    font-size: 12px;
+}
+
+.signin-con input:focus{
+    outline: 3px solid #c2f2ff;
+}
+
+.signin-con button{
+    width: 100%;
+    height: 32px;
+    margin: 15px 0;
+    background: #ffd814;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signin-con button:hover{
+    background: #ebc712;
+}
+
+.sign-in-con{
+     font-size: 12px;
+}
+
+.sign-in-con p span{
+    color: #0066c0;
+}
+
+.signin-help{
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+.sign-in-con hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+}
+
+.sign-in-con h4{
+    margin: 15px;
+    font-size: 13px;
+}
+
+.signin-business{
+    font-size: 13px;
+}
+
+.signin-bot{
+    width: 350px;
+    font-size: 13px;
+    color: #737373;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.signin-bot hr{
+    border: none;
+    height: 1px;
+    background: #d4d4d4;
+    width: 110px;
+}
+
+.signin-signup-btn{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+}
+
+.signin-signup-btn:hover{
+    background: #f1f1f1;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-top: 20px;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to bottom, #f4f4f4, white);
+    border: 2px solid #ededed;
+    font-size: 12px;
+}
+
+footer .foot-link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+footer .foot-link a{
+    text-decoration: none;
+    color: #0066c0;
 }
 
