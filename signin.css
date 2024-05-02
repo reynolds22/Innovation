@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    background: #fff;
+    text-align: center;
+    font-family: Outfit;
+    min-height: 100vh;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.signin-con{
+    max-width: 350px;
+    border: 1px solid #d2d2d2;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.signin-title{
+    font-size: 28px;
+    font-weight: 400;
+}
+
